@@ -24,7 +24,7 @@ void setup() //only run once
   delay(2000);
   
   myservo1.write(theta1);
-  myservo2.write(theta2);// make theta1 go to 45 degrees
+  myservo2.write(theta2);
 
   x1 = L1 * cos(theta1*PI/180);
   y1 = L1 * sin(theta1*PI/180);
@@ -52,23 +52,7 @@ void setup() //only run once
   Serial.print(yt);
 }
 
-void loop() //main prog (repeat foreva and eva)
+void loop() //main prog (repeat)
 {
-  /*
-  myservo1.write(0);
-  Serial.print("0\n"); 
-  delay(2000);
 
-  myservo1.write(180);
-  Serial.print("180\n");
-  delay(2000);
-  
-  myservo2.write(0); 
-  Serial.print("0\n");
-  delay(2000);
-  
-  myservo2.write(180);
-  Serial.print("180\n");
-  delay(2000);
-  */
 }
